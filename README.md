@@ -1,9 +1,9 @@
 # controlled_simplification_ru
 
-This repository containes code and supplementary materials for the paper "Automatic text simplification of Russian texts using control tokens" to appear in the SlavNLP-2023 workshop proceedings.
+This repository contains code and supplementary materials for the paper "Automatic text simplification of Russian texts using control tokens" to appear in the SlavNLP-2023 workshop proceedings.
 
 Best mBART model checkpoints can be downloaded from here: https://disk.yandex.com/d/cubPTzFsIFtvxg. 
 
-In the /data folder you can find lists of ids of sentence pairs from various datasets mentioned in the paper. Using these ids and the information about whether the source and target sentences were swapped (the reversed order), it is possible to construct a dataset identical to the one that was used in the paper.
+In the /data folder, you can find lists of ids of sentence pairs from various datasets mentioned in the paper. Using these ids and the information about whether the source and target sentences were swapped (the reversed order), it is possible to construct a dataset identical to the one used in the paper.
 
-The /scripts folder containes the scripts that were used to add control tokens. The finetuning process for all models was pretty generic. mBART models were finetuned with the RuSimpleSentEval's basic solution scripts: https://github.com/dialogue-evaluation/RuSimpleSentEval. T5 models were finetuned similarly to the currently unaccessible scripts for T5 finetuning (https://gist.github.com/avidale/4de1454bf41822dc862fddbd779d4cc6), which are similar to the example solution from this post: https://habr.com/ru/post/564916/, and the inference process was similar to this demo: https://gist.github.com/avidale/dd74f81bbb7e3b57de474b5fb4ca4bd7.
+The /scripts folder contains the scripts used to add control tokens. The finetuning process for all models was pretty generic. mBART models were finetuned with RuSimpleSentEval's basic solution scripts: https://github.com/dialogue-evaluation/RuSimpleSentEval. T5 models were finetuned similarly to the currently unaccessible scripts for T5 finetuning (https://gist.github.com/avidale/4de1454bf41822dc862fddbd779d4cc6), which are similar to the example solution from this post: https://habr.com/ru/post/564916/, and the inference process was similar to this demo: https://gist.github.com/avidale/dd74f81bbb7e3b57de474b5fb4ca4bd7.
