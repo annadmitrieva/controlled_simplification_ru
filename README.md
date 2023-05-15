@@ -1,6 +1,6 @@
 # controlled_simplification_ru
 
-This repository contains code and supplementary materials for the paper "Automatic text simplification of Russian texts using control tokens" to appear in the SlavNLP-2023 workshop proceedings.
+This repository contains code and supplementary materials for the paper ["Automatic text simplification of Russian texts using control tokens"](https://aclanthology.org/2023.bsnlp-1.9/).
 
 Best mBART model checkpoints can be downloaded from here: https://disk.yandex.com/d/cubPTzFsIFtvxg. 
 
